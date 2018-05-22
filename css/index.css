@@ -1,0 +1,123 @@
+/*导航*/
+.nav{
+	height: 82px;
+	background: #fff;
+}
+.nav_con{
+	width: 1100px;
+	margin: 0 auto;
+	height: 82px;
+	display: flex;
+	flex-flow:row ;
+}
+.logo{
+	background: red;
+	width: 200px;
+	height: 60px;
+	margin-top: 10px;
+	margin-right: 20px;
+}
+.city_list{
+	display: none;
+	position: absolute;
+	width: 100px;
+	text-align: center;
+	min-height: 60px;
+	left: 0;
+	top: 60px;
+	height: 120px;
+	overflow: auto;
+	background: rgba(0,0,0,0.4);
+	cursor: pointer;
+}
+.nav_list_li{
+	position: relative;
+	width: 100px;
+	height:82px;
+	text-align: center;
+	line-height: 82px;
+	font-size: 16px;
+}
+.city_list_li{
+	color: #fff;
+	height: 24px;
+	line-height: 24px;
+	margin-top: 5px;
+}
+.city_list_li:hover{
+	background: #fff;
+	color: #333;
+}
+.city_select:hover .city_list{
+	display: block;
+}
+.nav_list,.reg_login{
+	display: flex;
+	flex-flow: row;
+	line-height: 82px;
+}
+.wedding_teams{
+	width: 100px;
+	text-align: center;
+	height: 150px;
+	overflow: auto;
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 60px;
+	background: rgba(0,0,0,0.4);
+}
+.nav_list_li_wedding:hover .wedding_teams{
+	display: block;
+}
+.wedding_teams_li{
+	height: 24px;
+	line-height: 24px;
+	font-size: 16px;
+}
+.wedding_teams_li{
+	color: #fff;
+	margin-top: 5px;
+}
+.wedding_teams_li:hover{
+	background:#fff;
+	color: #000;
+}
+.box_warp{
+	width: 1100px;
+	height: 500px;
+	background: #f1f1f1;
+	margin: 0 auto;
+}
+.box_warp_ul{
+	display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between ;
+}
+.box_warp_li{
+	width: 24%;
+	background: #ccc;
+	height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
