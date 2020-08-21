@@ -7,21 +7,17 @@
 	<body>
 	</body>
 </html>
+<script src="https://elis-ecocdn.pingan.com.cn/lilith/lib/PALifeOpen.1.6.min.js?V=5.78.1" type="text/javascript" charset="utf-8"></script>
 <script src="https://parun.pingan.com/vitality/vitality/lib/eruda.min.js" type="text/javascript" charset="utf-8"></script>
 <script type="text/javascript">
 	eruda.init()
 </script>
 <script type="text/javascript">
-	function a(){
-		// let app=()=>{
-		// 	alert('111')
-		// 	console.log('aaa')
-		// }
-		// app()
-		
-		let app = ''
+	if (!window._PALifeOpenFinishedConfig) {
+	    window._PALifeOpenFinishedConfig = true
+	    PALifeOpen.config()
 	}
-	// document.onclick=function(){
-	// 	a()
-	// }
+	PALifeOpen.setTitle({
+	    title: '测试ifram', // 配置导航栏的Title
+	});
 </script>
